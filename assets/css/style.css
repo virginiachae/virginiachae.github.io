@@ -1,9 +1,14 @@
-.topText {
+.headlines {
+  margin-top: 2%;
   text-align: center;
 }
 
 .name {
   font-size: 12vh;
+}
+
+ul {
+  list-style: none;
 }
 
 #intro {
