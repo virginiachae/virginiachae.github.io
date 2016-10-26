@@ -1,0 +1,12 @@
+.topText {
+  text-align: center;
+}
+
+.name {
+  font-size: 12vh;
+}
+
+#intro {
+  background-image: url('va.png');
+  background-size: cover;
+}
