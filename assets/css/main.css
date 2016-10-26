@@ -9,8 +9,9 @@ p {
   color: white;
 }
 #intro {
-  background-image: url("default_profile-2.jpg");
-  background-size: cover;
+  background-image: url("vachae.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
   width: 90%;
   height: 500px;
 }
