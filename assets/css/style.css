@@ -16,18 +16,33 @@ ul {
   background-size: cover;
 }
 
-#test {
-  background-color: grey;
+#first{
+  display: inline-block;
+  height: 30vh;
+  background: #6b6b6b;
 }
-#test2 {
-  background-color: red;
+#second{
+  display: inline-block;
+  height: 30vh;
+  background: #4BC8E2;
 }
-#test3 {
-  background-color: blue;
+#third{
+  display: inline-block;
+  height: 30vh;
+  background: #8BDCC5;
 }
-#test4 {
-  background-color: green;
+#fourth{
+  display: inline-block;
+  height: 30vh;
+  background: #1aa9a8;
 }
-#testcont {
-  background-color: pink;
+#fifth{
+  display: inline-block;
+  height: 30vh;
+  background: #22dcda;
+}
+#sixth{
+  display: inline-block;
+  height: 30vh;
+  background: #66e2e1;
 }
