@@ -13,7 +13,11 @@ ul {
 
 #intro {
   background-image: url('va.png');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #f9f9f7;
+  width: 100%
 }
 
 #first{
