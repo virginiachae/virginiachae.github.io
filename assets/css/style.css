@@ -71,3 +71,7 @@ p {
 img {
   margin: 20px;
 }
+
+.tinyPrint {
+  font-size: .5rem;
+}
