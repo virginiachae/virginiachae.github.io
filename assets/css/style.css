@@ -20,60 +20,38 @@ p {
   color: grey;
 }
 
-#intro {
+#intro{
+  background-color: #f9f9f7;
+}
+
+.tagline{
+  padding-top: 20%;
+}
+
+.jumbotron{
   background-image: url('http://i.imgur.com/SW2arIy.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
   background-color: #f9f9f7;
-  width: 100%;
+  width: auto;
   height: auto;
   padding-top: 20%;
-  padding-bottom: 30%;
+  padding-bottom: 37%;
 }
 
-#first{
-  display: inline-block;
-  height: 50vh;
-  background: #6b6b6b;
-}
-#second{
-  display: inline-block;
-  height: 50vh;
-  background: #4BC8E2;
-}
-#third{
-  display: inline-block;
-  height: 50vh;
-  background: #8BDCC5;
-}
-#fourth{
-  display: inline-block;
-  height: 50vh;
-  background: #1aa9a8;
-}
-#fifth{
-  display: inline-block;
-  height: 50vh;
-  background: #22dcda;
-}
-#sixth{
-  display: inline-block;
-  height: 50vh;
-  background: #66e2e1;
+.portfolio:hover{
+  opacity: 0.5;
 }
 
-.contactSection {
-  background-color: grey;
+
+.project {
+  display: none;
+  position: absolute;
+  padding-top: 15%;
+  padding-left: 15%;
 }
 
-img {
-  margin-top: 10%;
-}
-
-.tinyPrint {
-  font-size: .5rem;
-}
-.projLink {
-  text-align: center;
+.portfolio:hover .project {
+  display: inline;
 }
