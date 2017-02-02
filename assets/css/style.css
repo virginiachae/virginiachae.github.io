@@ -50,6 +50,7 @@ p {
 -moz-transform:scale(1.25,1.25);
 -ms-transform:scale(1.25,1.25);
 -o-transform:scale(1.25,1.25);
+opacity: .5;
 }
 
 .projectName{
@@ -57,27 +58,46 @@ p {
   padding: 2%;
 }
 
-
 .pink{
   background-color: #fc7f6f;
-  padding: 1%;
   margin-bottom: 4%;
 }
 
 .blue{
   background-color: #adeeef;
-  padding: 1%;
   margin-bottom: 4%;
 }
 
 .yellow{
   background-color: #f0e786;
-  padding: 1%;
   margin-bottom: 4%;
 }
 
 .green{
   background-color: #ccf6e7;
-  padding: 1%;
   margin-bottom: 4%;
+}
+
+.sky{
+  background-color: #84cdfc;
+  margin-bottom: 4%;
+}
+
+.blur{
+  height: inherit;
+  width: inherit;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.blur:hover{
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.hover{
+  display: none;
+}
+
+.project:hover .hover{
+  display: block;
 }
