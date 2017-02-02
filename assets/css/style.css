@@ -44,12 +44,12 @@ p {
   opacity: 0.5;
 }
 
-
 .project {
   display: none;
   position: absolute;
-  padding-top: 15%;
-  padding-left: 15%;
+  padding-left: 5%;
+  padding-top: 5%;
+  color: black;
 }
 
 .portfolio:hover .project {
