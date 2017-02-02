@@ -40,18 +40,13 @@ p {
   padding-bottom: 37%;
 }
 
-.portfolio:hover{
-  opacity: 0.5;
-}
-
 .project {
   display: none;
   position: absolute;
-  padding-left: 5%;
-  padding-top: 5%;
+  padding: 5%;
   color: black;
 }
 
 .portfolio:hover .project {
-  display: inline;
+  display: block;
 }
