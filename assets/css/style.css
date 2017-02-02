@@ -40,13 +40,44 @@ p {
   padding-bottom: 37%;
 }
 
-.project {
-  display: none;
-  position: absolute;
-  padding: 5%;
-  color: black;
+/*.project{
+  opacity: .5;
+}*/
+
+.project:hover{
+  transform: scale(1.25,1.25);
+-webkit-transform:scale(1.25,1.25);
+-moz-transform:scale(1.25,1.25);
+-ms-transform:scale(1.25,1.25);
+-o-transform:scale(1.25,1.25);
 }
 
-.portfolio:hover .project {
-  display: block;
+.projectName{
+  text-align: center;
+  padding: 2%;
+}
+
+
+.pink{
+  background-color: #fc7f6f;
+  padding: 1%;
+  margin-bottom: 4%;
+}
+
+.blue{
+  background-color: #adeeef;
+  padding: 1%;
+  margin-bottom: 4%;
+}
+
+.yellow{
+  background-color: #f0e786;
+  padding: 1%;
+  margin-bottom: 4%;
+}
+
+.green{
+  background-color: #ccf6e7;
+  padding: 1%;
+  margin-bottom: 4%;
 }
