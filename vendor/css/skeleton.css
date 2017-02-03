@@ -150,9 +150,9 @@ font-family: 'Source Sans Pro', sans-serif; }
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
-a:hover {
   color: #909192; }
+a:hover {
+  color: #efdb9b; }
 
 
 /* Buttons

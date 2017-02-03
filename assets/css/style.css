@@ -1,6 +1,7 @@
 .headlines {
     margin-top: 2%;
     text-align: center;
+
 }
 
 ul {
@@ -73,8 +74,8 @@ img {
     margin-bottom: 4%;
 }
 
-.yellow {
-    background-color: #f0e786;
+.turquoise {
+    background-color: #3fd1cd;
     margin-bottom: 4%;
 }
 
@@ -84,10 +85,8 @@ img {
 }
 
 .sky {
-    background-color: #84cdfc;
-    margin-bottom: 4%;
+    color: #84cdfc;
 }
-
 
 .blur{
   height: inherit;;
@@ -117,4 +116,7 @@ img {
   margin: 0;
   border: 0;
   color: #4d4d4d;
+}
+.description .p{
+  font-size: 1.0rem;
 }
