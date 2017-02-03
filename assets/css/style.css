@@ -1,5 +1,6 @@
 .headlines {
     margin-top: 2%;
+    margin-bottom: 5%;
     text-align: center;
 
 }
@@ -119,4 +120,45 @@ img {
 }
 .description .p{
   font-size: 1.0rem;
+}
+
+.contactSection{
+  text-align: center;
+  background-image: url('http://i.imgur.com/g0sVh6g.jpg');
+  padding: 15%;
+}
+
+.section{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.tinyImg{
+  width: 75px;
+  height: 75px;
+}
+
+.portSection{
+  background-color: #f9f9f7;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.resume{
+  background-color: white;
+   border: none;
+   color: #84cdfc;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border: 1px solid #84cdfc
+}
+
+.resumeSection{
+  padding-top: 10%;
+  padding-bottom: 25%;
 }
